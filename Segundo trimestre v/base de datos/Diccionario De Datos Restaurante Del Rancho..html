@@ -1,0 +1,1078 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta name="description" content="DBDesigner4 HTML Report">
+  <title>DBDesigner4 HTML Report</title>
+  <style>
+/* Links defaults */
+
+a {color:#000000; text-decoration: underline;}
+a:hover { text-decoration: none; color: #ff0000; text-decoration: underline}
+
+/* Scrollers */
+body, textarea {
+  scrollbar-base-color:#eeeeee;
+  scrollbar-3dlight-color:#62708A;
+  scrollbar-arrow-color:#62708A;
+  scrollbar-darkshadow-color:#000000;
+  scrollbar-face-color:#eeeeee;
+  scrollbar-highlight-color:#ffffff;
+  scrollbar-shadow-color:#aaaaaa;
+  scrollbar-track-color:#eeeeee;}
+
+/* NoMargins */
+body { margin-left: 15px; margin-right: 15px; margin-top: 15px; margin-bottom: 15px }
+
+/* General Font */
+div, p, td {font-family: Tahoma, Verdana, Arial, MS Sans Serif; color: black; font-size: 11px}
+
+/* Fonts */
+.fontNB {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 11px; font-weight: 700}
+.fontL {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 12px}
+.fontX {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 14px; font-weight: 700}
+.fontXB {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 16px; font-weight: 700}
+.fontS {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 10px; font-weight: 500}
+.fontSB {font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 10px; font-weight: 700}
+
+  </style>
+</head>
+
+<body>
+
+<p class="fontX">Database Model plugin_tmp.xml<hr></p>
+
+<table cellpadding="0" cellspacing="2" border="0" width="100%" bgcolor="#eef4ff">
+  <tr>
+    <td class="fontXB"><i>Region_02</i><hr></td>
+  </tr>
+  <tr>
+    <td>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">CLIENTES
+     <font class="fontS"><br>se almacenan los datos de los usuarios registrados</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Nombre</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(30)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Nombre del cliente que se registra</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">FechaDeNacimiento</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha del cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Correo</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(50)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">correo del cliente que se registra</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Contraseña</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de seguridad que crea el cliente por seguridad</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">PRODUCTO
+     <font class="fontS"><br>se almacenan todos los datos sobre los productos<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Nombre</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(25)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">nombre del producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Imagen</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">BLOB</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Jpg del producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CostoUnitario</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(40)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">precio de cada producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Descripcion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CHAR(100)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">de que esta conformado el producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">PROMOCIONESse
+     <font class="fontS"><br>se almacenan todos los datos sobre las promociones</font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ADMINISTRADOR_ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">gerente encargado de las promociones</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(15)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">producto que sera publicado como nueva promocion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">FechaDeApertura</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha en la que sera publicada la promocion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">FechaDeFin</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha en la que se retira la promocion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Imagen</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">BLOB</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Jpg de promocion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PROMOCIONES_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ADMINISTRADOR_ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">ADMINISTRADOR
+     <font class="fontS"><br>en esta tabla se almacenan los datos del administrador<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">identificacion del administrador</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Nombre</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(25)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">nombre del usuario que sera el administrador</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Correo</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">correo del usuario</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Contraseña</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">contraseña de seguridad</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">DETALLEPROMOCION
+     <font class="fontS"><br>se almacenan una pequeña parte de los datos de la promocion<br><br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>IdPromociones</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de las promociones</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PRODUCTO_ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PROMOCIONESse_ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de promociones</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdProductos</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del producto</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PrecioPromocion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">costo de la promocion publicada</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdPromociones<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">DETALLEPROMOCION_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PROMOCIONESse_ID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">DETALLEPROMOCION_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PRODUCTO_ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">CLIENTES_has_PROMOCIONES
+     <font class="fontS"><br>En esta tabla se almacenan los datos  de los clientes y las promociones<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>CLIENTES_ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">identificacion de los clientes</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>PROMOCIONESse_ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de las promociones</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CLIENTES_ID<br>PROMOCIONESse_ID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">CLIENTES_has_PROMOCIONES_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CLIENTES_ID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">CLIENTES_has_PROMOCIONES_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PROMOCIONESse_ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Encuestas
+     <font class="fontS"><br>se almacenan los datos de las encuestas que se realizaran a los clientes<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>IdEncuestas</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de las encuestas</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ADMINISTRADOR_ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">identificacion del administrador</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">FechaInicioEncuesta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha en la que se publicara la encuesta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">FechaFinEncuesta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha de fin de la encuesta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdEncuestas<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Encuestas_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">ADMINISTRADOR_ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Preguntas
+     <font class="fontS"><br>se almacenan lo importante de las preguntas </font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>IdPregunta</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de la pregunta que se realizara</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TextPregunta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TEXT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">el contenido de la pregunta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Clasificar</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">clasificacion es el tipo de pregunta que se realizara ya sea sobre el producto o el servicio</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdPregunta<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Respuestas
+     <font class="fontS"><br>se almacenan las respuestas de los clientes<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>IdRespuestas</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de la respuesta echa por ell cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CLIENTES_ID</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Preguntas_IdPregunta</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de la pregunta que respondio el cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Fecha</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha en la que fue publicada la respuesta del cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Calificacion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">calificacion realizada por el cliente al producto o el servicio</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdRespuestas<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Respuestas_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Preguntas_IdPregunta<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Respuestas_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CLIENTES_ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">Encuestas_has_Preguntas
+     <font class="fontS"><br>se almacenan las encuestas y preguntas que se le realizaran al cliente<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>Encuestas_IdEncuestas</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">preguntas que seran realizadas a los clientes</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>Preguntas_IdPregunta</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de la pregunta que respondio el cliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Encuestas_IdEncuestas<br>Preguntas_IdPregunta<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Encuestas_has_Preguntas_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Encuestas_IdEncuestas<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Encuestas_has_Preguntas_FKIndex2</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Preguntas_IdPregunta<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#e4efff">
+  <tr>
+    <td class="fontX">RESERVACIONES
+     <font class="fontS"><br>aqui se almacenan los datos de las reservaciones realizadas por los clientes<br></font></td>
+  </tr>
+  <tr>
+    <td>
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d0dfff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">ColumnName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">DataType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">PrimaryKey&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">NotNull&nbsp;&nbsp;</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">Flags</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Default Value</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="20%">Comment</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="1%">AutoInc</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>IdReservacion</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo de la reservacion que se realizo</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">AI</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>CLIENTES_ID</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0"><b>INTEGER</b></td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">PK</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED ZEROFILL </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdCliente</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INTEGER</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">UNSIGNED </td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">codigo del cliente que realizo la reservacion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Hora</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">hora en la que va ser realizado el evento</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Fecha</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">fecha de la reservacion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">Lugar</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">DATE</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">lugar de la reservacion</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">TipoDeEvento</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">VARCHAR(20)</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">tipo de evento que se realizara</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CantidadClientes</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">INT</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">NN</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">numero de personas que asistiran al evento</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">&nbsp;</td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td class="fontB">
+      <table cellpadding="2" cellspacing="0" border="0" width="100%" bgcolor="#d8e6ff">
+        <tr>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexName</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">IndexType</td>
+          <td class="fontSB" style="border-bottom: 1px solid #606060" width="15%">Columns</td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">PRIMARY</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">IdReservacion<br>CLIENTES_ID<br></td>
+        </tr>
+        <tr>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">RESERVACIONES_FKIndex1</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0" valign="top">Index</td>
+          <td class="fontS" style="border-bottom: 1px solid #C0C0C0">CLIENTES_ID<br></td>
+        </tr>
+
+      </table>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#ffffff"><br><br><br></td>
+  </tr>
+</table>
+</body>
+
+</html>
