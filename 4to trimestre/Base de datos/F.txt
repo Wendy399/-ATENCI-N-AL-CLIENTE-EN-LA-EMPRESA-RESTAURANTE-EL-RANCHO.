@@ -1,0 +1,154 @@
+create database zoologicoSENA;
+use zoologicoSENA;
+
+create table animal
+(
+
+idAnimal int(3) auto_increment not null,
+FechNac date not null,
+DescAnimal varchar(30) not null,
+idZoo int,
+
+primary key (idAnimal)
+
+);
+
+create table Familia 
+(
+
+idFamilia int(3)auto_increment not null,
+DescFamilia varchar(30)not null,
+
+primary key(idFamilia)
+
+);
+
+create table Genero
+(
+
+idGenero int(3)auto_increment not null,
+DescGenero varchar(30) not null,
+
+primary key(idGenero)
+
+);
+
+create table Estado
+(
+
+idEstado int(3)auto_increment not null,
+DescEstado varchar(30) not null,
+
+primary key(idEstado)
+
+);
+
+create table Alimentacion
+(
+
+idAlimentacion int(3)auto_increment not null,
+DescAlimentacion varchar(30)not null,
+
+primary key(idAlimentacion)
+
+);
+
+create table zoologico
+(
+
+idZoo int(3)auto_increment not null,
+NombreZoo varchar(30)not null,
+Tamaño varchar(30) not null,
+Presupuesto double,
+
+primary key(idZoo) 
+
+);
+
+create table Continente
+(
+
+idContinente int(3) auto_increment not null,
+DescContinente varchar(30)not null,
+
+primary key(idContinente)
+
+);
+
+create table Pais
+(
+
+idPais int(3)auto_increment not null,
+DescPais varchar(30)not null,
+
+primary key(idPais)
+
+);
+
+create table Ciudad
+(
+
+idCiudad int(3)auto_increment,
+DescCiudad varchar(30) not null,
+
+primary key(idCiudad)
+
+);
+
+/*Alterar tablas*/
+
+Alter table Animal add idContinente int(3);
+Alter table Animal add idAlimentacion int(3);
+Alter table Animal add idEstado int(3);
+Alter table Animal add idZoologico int(3);
+Alter table Animal add idGenero int(3);
+Alter table Animal add idFamilia int(3);
+/*---------------Añadir campos a la tabla Animal--------------------------*/  
+alter table Animal add foreign key(idContinente)
+references Continente(idContinente);
+
+alter table Animal add foreign key(idAlimentacion)
+references Alimentacion(idAlimentacion);
+
+alter table Animal add foreign key(idEstado)
+references Estado(idEstado);
+
+alter table Animal add foreign key(idZoo)
+references Zoologico(idZoo);
+
+alter table Animal add foreign key(idGenero)
+references Genero(idGenero);  
+
+alter table Animal add foreign key(idFamilia)
+references Familia(idFamilia);
+/*---------------------------------Añadir campos a la tabla Zoologico-------------------------------*/
+alter table Zoologico add idPais int(3);
+alter table Zoologico add idCiudad int(3);
+/*------------------------------Añadir llaves foraneas a Zoologico --------------------------------------*/
+Alter table Zoologico add foreign key(idPais)
+references Pais(idPais); 
+
+Alter table Zoologico add foreign key(idCiudad)
+references Ciudad(idCiudad);
+/*-----------------------------añadir campos a la tabla ciudad-------------------------------------*/
+alter table Ciduad add idPais int(3);
+/*------------------------------Añadir llave foranea a Ciudad----------------------------------*/
+Alter table Ciudad add foreign key(idPais)
+references Pais(idPais);
+/*----------------------------Añadir campos a la tabla pais-----------------------------*/
+alter table pais add idContinente int(3);
+/*------------------------------Añadir llave foranea a Pais-----------------------------------*/
+alter table Pais add foreign key(idContinente)
+references Continente(idContinente);
+/*----------Describir datos de las tablas------------------------*/
+desc Animal;
+desc Familia;
+desc Genero;
+desc Estado;
+desc Alimentacion;
+desc Zoologico;
+desc Continente;
+desc Pais;
+desc Ciudad;
+/*Mostrar tablas*/
+show tables;
